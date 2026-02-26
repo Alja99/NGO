@@ -19,17 +19,16 @@ function Programs() {
         'Develop vocational and skill-based training programs'
       ],
       impact: {
-        beneficiaries: '8,000+ students',
-        institutions: '120+ schools',
-        reach: '150+ villages'
+        beneficiaries: '8+ students',
+        institutions: '3+ schools',
+        reach: '1+ villages'
       },
-      duration: '2015 - Ongoing',
-      budget: '$1.2M annually',
+      duration: '2025 - Ongoing',
+      budget: '$2,500 annually',
       activities: [
-        'School infrastructure development and renovation',
+        'School renovation',
         'Teacher training workshops and capacity building',
         'Scholarship distribution and student mentoring',
-        'Curriculum development for skill training',
         'Parent engagement and community mobilization'
       ]
     },
@@ -71,22 +70,16 @@ function Programs() {
       objectives: [
         'Develop marketable skills for income generation',
         'Support women entrepreneurs and microenterprises',
-        'Facilitate access to microfinance and business mentoring',
         'Create market linkages for products and services'
       ],
       impact: {
-        beneficiaries: '5,000+ individuals trained',
-        businesses: '800+ businesses established',
-        women: '3,000+ women entrepreneurs'
+        beneficiaries: '5+ individuals trained',
+        businesses: '1+ businesses established',
+        women: '3+ women entrepreneurs'
       },
-      duration: '2017 - Ongoing',
-      budget: '$950K annually',
+      duration: '2025 - Ongoing',
       activities: [
-        'Vocational and skills training programs',
-        'Entrepreneurship development workshops',
-        'Microfinance facilitation and loan disbursement',
-        'Business plan development and mentoring',
-        'Market linkage and e-commerce support'
+        'Skills training in tailoring, handicrafts, and agriculture',
       ]
     },
     {
@@ -97,25 +90,18 @@ function Programs() {
       description: 'Building essential water and sanitation infrastructure',
       overview: 'We construct and maintain water supply systems, sanitation facilities, and promote hygiene practices to improve public health and quality of life in rural communities.',
       objectives: [
-        'Provide clean drinking water to all villages',
+        'Provide clean drinking water to all school',
         'Build and maintain community sanitation facilities',
         'Promote hygiene practices and behavior change',
         'Ensure sustainable water resource management'
       ],
       impact: {
-        beneficiaries: '35,000+ individuals',
-        wells: '80+ water wells constructed',
-        reach: '120+ villages'
+        beneficiaries: '35+ individuals',
+        wells: '2+ water wells constructed',
+        reach: '1+ villages'
       },
-      duration: '2014 - Ongoing',
-      budget: '$1.1M annually',
-      activities: [
-        'Community water supply system construction',
-        'Sanitation facility development and maintenance',
-        'Hygiene awareness and training programs',
-        'Water quality monitoring',
-        'Rainwater harvesting and watershed management'
-      ]
+      duration: '2025 - Ongoing',
+      ;
     }
   ];
 
