@@ -80,7 +80,7 @@ function Impact() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="w-full py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <section className="w-full py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Our Impact</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
@@ -94,9 +94,9 @@ function Impact() {
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {impactStats.map((stat, index) => (
-              <div key={index} className="text-center p-8 rounded-xl bg-gray-50 hover:shadow-lg transition">
+              <div key={index} className="text-center p-8 rounded-xl bg-gradient-to-br from-blue-50 to-teal-50 hover:shadow-lg transition border-b-4 border-teal-600">
                 <div className="text-6xl mb-4">{stat.icon}</div>
-                <div className="text-4xl font-bold text-blue-600 mb-2">{stat.number}</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparento-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-2">{stat.number}</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{stat.label}</h3>
                 <p className="text-gray-600 text-sm">{stat.description}</p>
               </div>
@@ -106,7 +106,7 @@ function Impact() {
       </section>
 
       {/* Impact Areas Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gradient-to-b from-blue-50 to-teal-50">
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Areas of Impact</h2>
@@ -117,14 +117,14 @@ function Impact() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {impactAreas.map((area, index) => (
-              <div key={index} className={`${area.color} p-8 rounded-2xl`}>
+              <div key={index} className="bg-white p-8 rounded-2xl border-l-4 border-blue-600 hover:border-teal-600 shadow-md hover:shadow-lg transition">
                 <div className="text-5xl mb-4">{area.icon}</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">{area.title}</h3>
                 <p className="text-gray-700 mb-6">{area.description}</p>
                 <div className="space-y-2">
                   {area.metrics.map((metric, i) => (
                     <div key={i} className="flex items-center text-gray-700">
-                      <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                      <span className="w-2 h-2 bg-gradient-to-r from-blue-600 to-teal-600 rounded-full mr-3"></span>
                       {metric}
                     </div>
                   ))}
@@ -145,7 +145,7 @@ function Impact() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-blue-50 p-8 rounded-xl border-l-4 border-blue-600">
+              <div key={index} className="bg-gradient-to-br from-blue-50 to-teal-50 p-8 rounded-xl border-l-4 border-teal-600">
                 <div className="text-4xl mb-4">💬</div>
                 <p className="text-gray-700 italic mb-6">"{testimonial.quote}"</p>
                 <div>
@@ -159,17 +159,17 @@ function Impact() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Be Part of the Change</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Your support drives our mission forward. Together, we can transform more lives.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition">
+            <button className="bg-white text-blue-600 font-bold px-8 py-4 rounded-lg hover:bg-blue-50 transition transform hover:scale-105">
               View Programs
             </button>
-            <button className="bg-transparent text-white font-bold px-8 py-4 rounded-lg border-2 border-white hover:bg-blue-800 transition">
+            <button className="bg-transparent text-white font-bold px-8 py-4 rounded-lg border-2 border-white hover:bg-white/10 transition transform hover:scale-105">
               Donate Now
             </button>
           </div>

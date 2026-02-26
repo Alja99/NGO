@@ -26,12 +26,12 @@ function BlogCard({ post, onReadMore }) {
           {post.author && <span>{post.author}</span>}
         </div>
         
-        <h3 className="text-xl font-semibold mt-2">{post.title}</h3>
+        <h3 className="text-xl font-semibold mt-2 text-gray-900">{post.title}</h3>
         <p className="mt-2 text-gray-600">{post.excerpt}</p>
 
         <button 
           onClick={() => onReadMore && onReadMore(post.id)}
-          className="mt-4 text-green-600 font-medium hover:text-green-700 transition"
+          className="mt-4 text-teal-600 font-medium hover:text-teal-700 transition"
         >
           Read More →
         </button>

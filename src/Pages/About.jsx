@@ -133,23 +133,15 @@ function About () {
                 ]
               },
               {
-                title: "Economic Empowerment",
+                title: "Hope With Action",
                 items: [
-                  "Microfinance and entrepreneurship support",
-                  "Market access for small businesses",
+                  "We pair compassion with action, working to create real change in the lives of those we serve.",
+                  " Our programs are designed to address immediate needs while also building long-term resilience and opportunity.",
                   "Women economic empowerment programs",
                   "Job creation initiatives"
                 ]
-              },
-              {
-                title: "Social Development",
-                items: [
-                  "Environmental sustainability projects",
-                  "Gender equality advocacy",
-                  "Youth engagement programs",
-                  "Community infrastructure development"
-                ]
               }
+              
             ].map((area, index) => (
               <div key={index} className="bg-blue-50 rounded-lg p-8 border-l-4 border-blue-600">
                 <h4 className="text-2xl font-bold text-gray-900 mb-4">{area.title}</h4>
@@ -177,8 +169,8 @@ function About () {
 
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { number: "1K+", label: "Lives Impacted" },
-              { number: "5+", label: "Projects Completed" },
+              { number: "10+", label: "Lives Impacted" },
+              { number: "3+", label: "Projects Completed" },
               { number: "5+", label: "Community Partners" },
               { number: "1+", label: "Years of Service" }
             ].map((stat, index) => (
@@ -229,7 +221,7 @@ function About () {
         <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Join Our Mission</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Be part of the change. Support our initiatives and help us create sustainable development in communities and Help The young ones.
+           To keep vulnerable children in school and provide them with the resources they need to succeed, we rely on the support of compassionate individuals like you. Your contribution can make a real difference in the lives of these children and their communities.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <button className="bg-blue-600 text-white font-semibold px-8 py-3 rounded-md hover:bg-blue-700 transition-colors text-lg">

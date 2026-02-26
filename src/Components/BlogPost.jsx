@@ -24,23 +24,11 @@ Our commitment doesn't stop here. We're expanding this program to reach 1000 mor
   },
   2: {
     id: 2,
-    title: "Medical Camps That Saved ",
+    title: "Engaging Schools  ",
     image: "/blog2.jpg",
     date: "Mar 10, 2025",
     author: "David Johnson",
-    content: `Our medical camps reached people in remote villages, providing free healthcare services and essential medicines. The team of dedicated doctors and volunteers worked tirelessly to ensure every patient received quality care.
-
-From basic health screenings to specialized consultations, these camps have become a lifeline for many families who lack access to regular medical services. Here's what we accomplished:
-
-• Screened 80+ patients for common health issues
-• Provided 20+ prescriptions for essential medicines
-• Conducted 5+ specialized consultations
-
-• Distributed health awareness materials to 100+ people
-
-The most rewarding part of these camps is seeing the relief on patients' faces when they receive care. Many hadn't visited a doctor in years due to distance and cost barriers. Our volunteers included medical students, experienced doctors, and community health workers, creating a truly collaborative effort.
-
-Looking ahead, we plan to establish mobile clinics that visit villages regularly, ensuring continuous healthcare access for these communities.`
+    content: ` for these communities.`
   },
   3: {
     id: 3,
@@ -52,9 +40,8 @@ Looking ahead, we plan to establish mobile clinics that visit villages regularly
 
 The response from the community has been overwhelming, and we're committed to continuing this vital support for those facing food insecurity. Our relief efforts included:
 
-• Distribution of 1000+ meal packages with essential nutrition
+• Distribution of 10+ meal packages with essential nutrition
 • Assistance to 15+ elderly and disabled individuals
-• Support for 30+ children with school meal programs
 • Training programs on food security and nutrition
 
 This crisis reminded us of the fragility many families face daily. A single emergency can push vulnerable families into food insecurity. Our goal is to not only provide immediate relief but also build long-term resilience through community gardens, microfinance programs, and vocational training.

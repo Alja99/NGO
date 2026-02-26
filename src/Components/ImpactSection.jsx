@@ -26,7 +26,7 @@ function ImpactSection() {
   ];
 
   return (
-    <section className="py-20 bg-blue-50">
+    <section className="py-20 bg-gradient-to-b from-blue-50 to-teal-50">
       <div className="max-w-6xl mx-auto px-4 md:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Impact</h2>
@@ -38,9 +38,9 @@ function ImpactSection() {
         {/* Impact Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {impacts.map((impact, index) => (
-            <div key={index} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition text-center">
+            <div key={index} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition text-center border-b-4 border-teal-600 transform hover:scale-105">
               <div className="text-5xl mb-4">{impact.icon}</div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">{impact.number}</div>
+              <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-2">{impact.number}</div>
               <p className="text-gray-700 font-medium">{impact.label}</p>
             </div>
           ))}
@@ -50,7 +50,7 @@ function ImpactSection() {
         <div className="text-center">
           <Link
             to="/impact"
-            className="inline-block bg-blue-600 text-white font-bold px-8 py-4 rounded-lg hover:bg-blue-700 transition"
+            className="inline-block bg-gradient-to-r from-blue-600 to-teal-600 text-white font-bold px-8 py-4 rounded-lg hover:shadow-lg transition transform hover:scale-105"
           >
             View Our Full Impact Story →
           </Link>

@@ -42,7 +42,7 @@ function Donate() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="w-full py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <section className="w-full py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Make a Difference</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
@@ -68,13 +68,13 @@ function Donate() {
             </div>
 
             {/* Mobile Donation Card */}
-            <div className="md:w-1/2 bg-gradient-to-br from-green-50 to-green-100 p-12 rounded-2xl shadow-lg border-2 border-green-200">
+            <div className="md:w-1/2 bg-gradient-to-br from-teal-50 to-teal-100 p-12 rounded-2xl shadow-lg border-2 border-teal-200">
               <div className="text-6xl mb-6">📱</div>
               <h3 className="text-3xl font-bold text-gray-900 mb-4">Mobile Donation</h3>
               <p className="text-gray-700 mb-8 text-lg">
                 Donate quickly using your mobile phone. Convenient and instant.
               </p>
-              <button onClick={() => setView('mobile')} className="bg-green-600 text-white font-bold px-8 py-4 rounded-lg hover:bg-green-700 transition-colors text-lg">
+              <button onClick={() => setView('mobile')} className="bg-teal-600 text-white font-bold px-8 py-4 rounded-lg hover:bg-teal-700 transition-colors text-lg">
                 Donate via Mobile
               </button>
             </div>
@@ -125,7 +125,7 @@ function Donate() {
                 onChange={handleAmountChange}
                 required
                 placeholder="$50"
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
+                className="w-full px-4 py-3 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-teal-600"
               />
             </div>
 
@@ -138,7 +138,7 @@ function Donate() {
                 onChange={handleFormChange}
                 required
                 placeholder="John Doe"
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
+                className="w-full px-4 py-3 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-teal-600"
               />
             </div>
 
@@ -151,7 +151,7 @@ function Donate() {
                 onChange={handleFormChange}
                 required
                 placeholder="john@example.com"
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
+                className="w-full px-4 py-3 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-teal-600"
               />
             </div>
 
@@ -162,8 +162,8 @@ function Donate() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleFormChange}
-                placeholder="+1 (555) 000-0000"
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
+                placeholder="+231 (880) 291-399"
+                className="w-full px-4 py-3 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-teal-600"
               />
             </div>
 
@@ -175,7 +175,7 @@ function Donate() {
                 onChange={handleFormChange}
                 placeholder="Tell us why this cause matters to you..."
                 rows="4"
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"
+                className="w-full px-4 py-3 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-teal-600"
               />
             </div>
 
@@ -184,7 +184,7 @@ function Donate() {
               disabled={!amount}
               className={`w-full py-4 rounded-lg font-bold text-lg transition-colors ${
                 amount
-                  ? 'bg-blue-600 text-white hover:bg-blue-700'
+                  ? 'bg-gradient-to-r from-blue-600 to-teal-600 text-white hover:shadow-lg'
                   : 'bg-gray-300 text-gray-500 cursor-not-allowed'
               }`}
             >
@@ -199,22 +199,22 @@ function Donate() {
       </section>
 
       {/* Impact Section */}
-      <section className="py-20 bg-blue-50">
+      <section className="py-20 bg-gradient-to-b from-blue-50 to-teal-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Your Impact</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Your Impact</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-5xl font-bold text-blue-600 mb-4">$10</div>
+              <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-4">$10</div>
               <p className="text-gray-700">Provides educational materials for 2 students</p>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-blue-600 mb-4">$50</div>
-              <p className="text-gray-700">Funds healthcare services for 5 families</p>
+              <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-4">$50</div>
+              <p className="text-gray-700">Funds healthcare services for 2 families</p>
             </div>
             <div className="text-center">
-              <div className="text-5xl font-bold text-blue-600 mb-4">$250</div>
-              <p className="text-gray-700">Establishes a learning center for a community</p>
+              <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-4">$250</div>
+              <p className="text-gray-700">Supports a child's education for a full year</p>
             </div>
           </div>
         </div>
