@@ -32,41 +32,14 @@ function Programs() {
         'Parent engagement and community mobilization'
       ]
     },
-    {
-      id: 2,
-      title: 'Healthcare & Wellness Program',
-      category: 'Healthcare',
-      image: '/Image/blogpic2.jpg',
-      description: 'Providing accessible healthcare and promoting community health',
-      overview: 'We provide comprehensive healthcare services including medical camps, health awareness programs, maternal health services, and nutrition support to remote and underserved communities.',
-      objectives: [
-        'Increase access to preventive and curative healthcare',
-        'Promote health awareness and disease prevention',
-        'Strengthen maternal and child health services',
-        'Build community health worker capacity'
-      ],
-      impact: {
-        beneficiaries: '25,000+ individuals',
-        camps: '80+ medical camps annually',
-        reach: '150+ villages'
-      },
-      duration: '2016 - Ongoing',
-      budget: '$850K annually',
-      activities: [
-        'Monthly medical camps and health screening',
-        'Health awareness campaigns and workshops',
-        'Maternal and child health programs',
-        'Nutrition support for vulnerable groups',
-        'First aid and basic health training'
-      ]
-    },
+    
     {
       id: 3,
       title: 'Livelihood & Entrepreneurship',
       category: 'Livelihood',
       image: '/Image/blogpic3.jpg',
-      description: 'Creating sustainable income opportunities and economic independence',
-      overview: 'We provide skills training, microfinance support, and market linkage assistance to help individuals and communities achieve economic independence through self-employment and entrepreneurship.',
+      description: 'Creating enterpreneurial opportunities and promoting economic self-sufficiency',
+      overview: 'We provide skills training, and market linkage assistance to help individuals and communities achieve economic independence through self-employment and entrepreneurship.',
       objectives: [
         'Develop marketable skills for income generation',
         'Support women entrepreneurs and microenterprises',
@@ -98,18 +71,19 @@ function Programs() {
       impact: {
         beneficiaries: '35+ individuals',
         wells: '2+ water wells constructed',
-        reach: '1+ villages'
-      },
-      duration: '2025 - Ongoing',
-      ;
+        reach: '1+ villages',
+      duration: '2025 - Ongoing', 
+     },
+
+      
     }
   ];
 
   const programStats = [
-    { label: 'Active Programs', value: '4' },
-    { label: 'Communities Served', value: '500+' },
-    { label: 'Total Beneficiaries', value: '73,000+' },
-    { label: 'Annual Budget', value: '$4.1M' }
+    { label: 'Active Programs', value: '3' },
+    { label: 'Communities Served', value: '5+' },
+    { label: 'Total Beneficiaries', value: '70+' }
+   
   ];
 
   return (
@@ -280,9 +254,9 @@ function Programs() {
                 <div className="text-5xl mb-4">{way.icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{way.title}</h3>
                 <p className="text-gray-700 mb-6">{way.description}</p>
-                <button className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2">
-                  Learn More <span>→</span>
-                </button>
+                <Link to="/donate" className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2">
+                  Donate Now <span>→</span>
+                </Link>
               </div>
             ))}
           </div>

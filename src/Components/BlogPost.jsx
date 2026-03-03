@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import blogpic1 from '../assets/blogpic1.jpeg';
 
 const blogPosts = {
@@ -119,9 +120,9 @@ function BlogPost({ postId = 1 }) {
               Join us in our mission to create positive change in communities. Your support, whether through donations, volunteering, or advocacy, matters.
             </p>
             <div className="flex gap-4">
-              <button className="bg-green-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-green-700 transition">
+              <Link to="/donate" className="bg-green-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-green-700 transition">
                 Donate Now
-              </button>
+              </Link>
               <button className="border border-green-600 text-green-600 font-semibold px-8 py-3 rounded-lg hover:bg-green-50 transition">
                 Volunteer
               </button>

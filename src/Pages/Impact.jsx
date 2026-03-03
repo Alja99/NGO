@@ -1,27 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Impact() {
   const impactStats = [
     {
-      number: '4K+',
+      number: '450+',
       label: 'Lives Transformed',
       icon: '👥',
       description: 'Students, families, and communities directly impacted'
     },
     {
-      number: '20+',
+      number: '5+',
       label: 'Programs Delivered',
       icon: '🎯',
       description: 'Education, healthcare, and development initiatives'
     },
     {
-      number: '50+',
+      number: '5+',
       label: 'Villages Reached',
       icon: '🌍',
       description: 'Communities across multiple regions'
     },
     {
-      number: '95%',
+      number: '75%',
       label: 'Success Rate',
       icon: '⭐',
       description: 'Program completion and satisfaction rate'
@@ -40,21 +41,21 @@ function Impact() {
       title: 'Healthcare',
       icon: '❤️',
       description: 'Delivering accessible medical services and health awareness programs',
-      metrics: ['20+ Patients', '3+ Medical Camps', '2+ Communities'],
+      metrics: ['3+ Medical Camps', '2+ Communities'],
       color: 'bg-red-50'
     },
     {
-      title: 'Livelihood',
-      icon: '💼',
-      description: 'Creating sustainable income opportunities through skills training',
-      metrics: ['40+ Trained', '20+ Jobs Created', '5+ Entrepreneurs'],
+      title: 'Water and sanitation',
+      icon: '💧',
+      description: 'Improving access to clean water and sanitation facilities in underserved communities',
+      metrics: ['10+ Wells', '4+ Villages'],
       color: 'bg-green-50'
     },
     {
-      title: 'Infrastructure',
+      title: 'Enterpreneurship',
       icon: '🏗️',
-      description: 'Building essential infrastructure for community development',
-      metrics: ['50+ Projects', '5+ Water Wells'],
+      description: 'Fostering economic independence through skills training ',
+      metrics: ['15+ Trained', '2+ Businesses Started'],
       color: 'bg-purple-50'
     }
   ];
@@ -166,12 +167,18 @@ function Impact() {
             Your support drives our mission forward. Together, we can transform more lives.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 font-bold px-8 py-4 rounded-lg hover:bg-blue-50 transition transform hover:scale-105">
+            <Link
+              to="/programs"
+              className="inline-block bg-white text-blue-600 font-bold px-8 py-4 rounded-lg hover:bg-blue-50 transition transform hover:scale-105"
+            >
               View Programs
-            </button>
-            <button className="bg-transparent text-white font-bold px-8 py-4 rounded-lg border-2 border-white hover:bg-white/10 transition transform hover:scale-105">
+            </Link>
+            <Link
+              to="/donate"
+              className="inline-block bg-transparent text-white font-bold px-8 py-4 rounded-lg border-2 border-white hover:bg-white/10 transition transform hover:scale-105"
+            >
               Donate Now
-            </button>
+            </Link>
           </div>
         </div>
       </section>
