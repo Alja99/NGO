@@ -1,15 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import blogpic1 from '../assets/blogpic1.jpeg';
+import { Link, useParams } from 'react-router-dom'
+// image paths reference public folder
 
 const blogPosts = {
   1: {
     id: 1,
     title: "How Education Is Changing Lives",
-    image: blogpic1,
+    image: "/Image/blogpic1.jpeg",
     date: "Jan 15, 2026",
     author: "Mamie Doe",
-    content: [] `Education is the foundation of change. In our latest initiative, we've provided educational resources to over 500 students in underserved communities. The impact has been remarkable, with a 60% improvement in academic performance among participating students.
+    content: `Education is the foundation of change. In our latest initiative, we've provided educational resources to over 500 students in underserved communities. The impact has been remarkable, with a 60% improvement in academic performance among participating students.
 
 This journey has shown us that when given the right tools and support, every child can succeed. Our program focuses on:
 
@@ -26,7 +26,7 @@ Our commitment doesn't stop here. We're expanding this program to reach 1000 mor
   2: {
     id: 2,
     title: "Engaging Schools  ",
-    image: "/blog2.jpg",
+    image: "/Image/blogpic2.jpg",
     date: "Mar 10, 2025",
     author: "David Johnson",
     content: ` for these communities.`
@@ -34,7 +34,7 @@ Our commitment doesn't stop here. We're expanding this program to reach 1000 mor
   3: {
     id: 3,
     title: "Feeding Families in Crisis",
-    image: "/blog3.jpg",
+    image: "/Image/blogpic3.jpg",
     date: "Jan 10, 2026",
     author: "Mercy Kollie",
     content: `During the recent crisis, our food relief program distributed meals to over 1000 families in need. Each package was carefully prepared with nutritious items to support health and wellbeing.
@@ -51,8 +51,10 @@ Every donation made a real difference. We're grateful for the support and will c
   }
 };
 
-function BlogPost({ postId = 1 }) {
-  const post = blogPosts[postId];
+function BlogPost({ postId: propId }) {
+  const { postId: paramId } = useParams()
+  const id = propId || parseInt(paramId, 10) || 1
+  const post = blogPosts[id];
 
   if (!post) {
     return (

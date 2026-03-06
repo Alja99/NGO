@@ -37,7 +37,7 @@ const allPosts = [
     excerpt: "A new water supply brings hope to a village.",
     image: "/blog2.jpg",
     date: "Jan 5, 2026",
-    author: "Ahmed Hassan",
+    author: "Hassan Bamba",
     content: "After months of construction and community effort, the water project is finally complete. The village now has access to clean, safe drinking water, eliminating hours of daily labor spent fetching water. This project will improve health outcomes, especially for children, and allow parents to focus on other productive activities."
   },
   {
@@ -46,7 +46,7 @@ const allPosts = [
     excerpt: "Empowering women through vocational training.",
     image: "/blog1.jpg",
     date: "Dec 28, 2025",
-    author: "Priya Sharma",
+    author: "Alfred Jallah",
     content: "We're thrilled to launch our new skills training program for women, covering areas like digital literacy, tailoring, and small business management. Over 200 women have already enrolled. This program aims to create economic independence and empower women in their communities."
   },
   {

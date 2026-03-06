@@ -4,22 +4,22 @@ import { Link } from 'react-router-dom'
 function ImpactSection() {
   const impacts = [
     {
-      number: '4K+',
+      number: '2K+',
       label: 'Lives Transformed',
       icon: '👥'
     },
     {
-      number: '20+',
+      number: '4+',
       label: 'Programs Delivered',
       icon: '🎯'
     },
     {
-      number: '50+',
+      number: '2+',
       label: 'Villages Reached',
       icon: '🌍'
     },
     {
-      number: '95%',
+      number: '76%',
       label: 'Success Rate',
       icon: '⭐'
     }

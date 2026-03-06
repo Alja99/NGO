@@ -11,11 +11,11 @@ function Footer() {
           <div className="md:col-span-1">
             <h3 className="text-xl font-bold text-gray-900 mb-3">NGO Foundation</h3>
             <p className="text-gray-600 text-sm mb-6">
-              Empowering communities through education, healthcare, and sustainable development. Together, we create lasting change.
+            A world where every child, especially girls in rural communities, attends school nourished, protected, included, and able to learn and live with dignity.
             </p>
             {/* Social Icons */}
             <div className="flex gap-4">
-              <a href="#twitter" className="text-gray-500 hover:text-blue-600 transition text-xl">𝕏</a>
+              <a href="https://www.facebook.com/share/183d5eLrv1/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 transition text-xl">f</a>
               <a href="#instagram" className="text-gray-500 hover:text-pink-600 transition text-xl">📷</a>
               <a href="#linkedin" className="text-gray-500 hover:text-blue-700 transition text-xl">in</a>
               <a href="#github" className="text-gray-500 hover:text-gray-900 transition text-xl">⚙</a>
@@ -61,6 +61,7 @@ function Footer() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <p className="text-gray-600 text-sm mb-4 md:mb-0">
               © 2026 NGO Foundation. All rights reserved.
+              
             </p>
             <div className="flex gap-6">
               <a href="#privacy" className="text-gray-600 hover:text-blue-600 transition text-sm">Privacy Policy</a>

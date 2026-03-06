@@ -43,7 +43,10 @@ function Program () {
 </div>
             <div className="p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-2">Rural Girls Retention Program</h3>
-              <p className="text-gray-600 text-sm">Supporting community development projects including infrastructure, livelihood, and environmental sustainability.</p>
+              <p className="text-gray-600 text-sm">•	Mentorship circles and leadership sessions with female role models.<br/>
+•	Menstrual hygiene support and practical health education.
+•	Attendance tracking and early warning follow-up with parents and schools.
+.</p>
             </div>
           </div>
 

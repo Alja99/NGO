@@ -29,10 +29,14 @@ const posts = [
   },
 ];
 
+import { useNavigate } from 'react-router-dom'
+
 function BlogSection() {
+  const navigate = useNavigate()
+
   const handleReadMore = (postId) => {
-    // Navigate to blog post - can be updated when routing is added
-    console.log("Read more about post:", postId);
+    // navigate to the blog post route
+    navigate(`/blog/${postId}`)
   };
 
   return (

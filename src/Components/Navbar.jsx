@@ -42,10 +42,14 @@ function Navbar() {
                 Impact
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
-              <a className="text-white font-semibold hover:text-blue-100 transition-all duration-300 relative group" href="#contact">
+              <Link className="text-white font-semibold hover:text-blue-100 transition-all duration-300 relative group" to="/contact">
                 Contact
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-              </a>
+              </Link>
+              <Link className="text-white font-semibold hover:text-blue-100 transition-all duration-300 relative group" to="/blog-dashboard">
+                Dashboard
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
+              </Link>
             </div>
 
             {/* Desktop Donate Button */}
@@ -102,13 +106,20 @@ function Navbar() {
               >
                 Impact
               </Link>
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
                 onClick={closeMenu}
                 className="text-white block px-4 py-3 rounded-md hover:bg-blue-700 transition-all duration-300 font-semibold"
               >
                 Contact
-              </a>
+              </Link>
+              <Link
+                to="/blog-dashboard"
+                onClick={closeMenu}
+                className="text-white block px-4 py-3 rounded-md hover:bg-blue-700 transition-all duration-300 font-semibold"
+              >
+                Dashboard
+              </Link>
               <div className="pt-2 border-t border-blue-400">
                 <Link
                   to="/donate"

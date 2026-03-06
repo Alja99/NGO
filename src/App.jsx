@@ -13,6 +13,9 @@ import Gallery from './Components/Gallery'
 import Donate from './Pages/Donate'
 import Impact from './Pages/Impact'
 import Programs from './Pages/Programs'
+import Contact from './Pages/Contact'
+import BlogDashboard from './Pages/BlogDashboard'
+import BlogPost from './Components/BlogPost'
 
 
 function App() {
@@ -35,6 +38,9 @@ function App() {
         <Route path="/programs" element={<Programs />} />
         <Route path="/impact" element={<Impact />} />
         <Route path="/about" element={<Aboutpage />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog-dashboard" element={<BlogDashboard />} />
+        <Route path="/blog/:postId" element={<BlogPost />} />
         <Route path="/donate" element={<Donate />} />
       </Routes>
       <Footer />

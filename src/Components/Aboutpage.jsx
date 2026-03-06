@@ -15,9 +15,9 @@ function Aboutpage()  {
               We build stronger communities through education, healthcare, and sustainable programs. Our work focuses on creating opportunities and long-term impact.
             </p>
             <p className="text-gray-700 mb-3  text-2xl">
-              Join us in making a difference — volunteer, donate, or partner with our programs to create lasting change.<br/> Together, we can transform lives.
-              <br /> Lupron (leuprolide) is a prescription gonadotropin-releasing hormone (GnRH) agonist used to treat advanced <br /> prostate cancer, endometriosis, uterine fibroids, and central precocious puberty by suppressing sex hormones. <br /> Administered via injection, it reduces testosterone in men and estrogen in women. Common side effects include hot flashes, headaches, joint pain, mood changes, and site reactions. 
-            </p>
+             Rising Hope Global Network is a nonprofit organization founded in 2025 in Liberia to respond to urgent <br/> barriers facing school-going children, especially in rural communities. Many children attend classes hungry. Many parents lack the income to provide food, learning materials, basic health needs, and care. These pressures weaken attendance, learning outcomes, and child development.
+Rising Hope uses education as the entry point for change. We combine direct support to learners with strong community partnership, and transparent storytelling through digital media to mobilize local and international support.
+</p>
           </div>
 
           {/* Image - right on wide screens */}
